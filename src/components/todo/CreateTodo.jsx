@@ -11,7 +11,7 @@ const CreateTodo = () => {
 
 
      return (
-          <div className='container-fluid'>
+          <div className='container-fluid my-5'>
                <div className='row'>
                     <div className="col-md-9">
                          <input ref={taskInput} type="text" placeholder='Task Name' className='form-control' />
